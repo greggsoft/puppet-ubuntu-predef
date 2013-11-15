@@ -13,4 +13,5 @@ dependency 'attachmentgenie/locales', '>= 0.0.1'
 dependency 'attachmentgenie/timezone', '>= 0.0.1'
 dependency 'puppetlabs/ntp', '>= 0.0.1'
 # Not yet in puppet forge
+# git@github.com:greggsoft/puppet-puppet
 # dependency 'greggsoft/puppet', '>= 0.0.1' 
