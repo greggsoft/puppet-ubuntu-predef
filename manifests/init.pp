@@ -47,4 +47,12 @@ class ubuntu-predef {
 	class {'timezone':
 		zone => 'Asia/Yekaterinburg'
 	}
+
+	$packages = [
+		'htop'
+	]
+
+	package { $packages:
+		ensure => installed,
+	}
 }
