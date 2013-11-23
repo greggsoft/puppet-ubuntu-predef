@@ -12,6 +12,7 @@ project_page 'UNKNOWN'
 dependency 'attachmentgenie/locales', '>= 0.0.1'
 dependency 'attachmentgenie/timezone', '>= 0.0.1'
 dependency 'puppetlabs/ntp', '>= 0.0.1'
+dependency 'puppetlabs/apt', '>= 1.1.0'
 # Not yet in puppet forge
-# git@github.com:greggsoft/puppet-puppet
+# git@github.com:greggsoft/puppet-puppet.git
 # dependency 'greggsoft/puppet', '>= 0.0.1' 

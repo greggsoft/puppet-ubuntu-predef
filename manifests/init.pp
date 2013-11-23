@@ -36,6 +36,7 @@
 # Copyright 2013 Your name here, unless otherwise noted.
 #
 class ubuntu-predef {
+	include ::apt
 	include ::puppet
 	include ::ntp
 
@@ -53,6 +54,7 @@ class ubuntu-predef {
 	]
 
 	package { $packages:
-		ensure => installed,
+		ensure  => installed,
+		require => Class['Apt::Update']
 	}
 }
